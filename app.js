@@ -118,7 +118,7 @@ app.delete("/blogs/:id", function(req, res) {
     });
     //redirect to index
 });
-
-app.listen(process.env.PORT, process.env.IP, function() {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, process.env.IP, function() {
     console.log("blog server running");
 });
