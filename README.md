@@ -1,5 +1,5 @@
 # Blog-App
-A Basic Blog App running using Node.js and Express Framework
+A Basic Blog App built using Node.js and Express Framework
 
 
  
