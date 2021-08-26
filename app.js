@@ -6,7 +6,8 @@ var express = require("express"),
     expressSanitizer = require("express-sanitizer");
 
 //App config
-var dburl = process.env.DATABASEURL || "mongodb://localhost/blogApp";
+// var dburl = process.env.DATABASEURL || "mongodb://localhost/blogApp";
+var dburl = "mongodb+srv://aman:12345@cluster0.avobh.mongodb.net/Cluster0?retryWrites=true&w=majority"
 mongoose.connect(dburl);
 //mongoose.connect("mongodb://localhost/blogApp");
 app.set("view engine", "ejs");
